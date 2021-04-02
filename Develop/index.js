@@ -1,32 +1,41 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-// const fs = require('fs');
+const fs = require('fs');
 // const genMd = require('./utils/generateMarkdown.js');
-// checking modularization
-// console.log(genMd);
-const licenseArray = ['MIT', '']
+
+const licenseArray = ['MIT', 'BSD', 'Apache-2.0', 'GPL']
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
-        message: 'Please input the title of your project >',
+        message: 'Enter the title of your project >',
         name: 'title'
     },
     {
         type: 'input',
-        message: 'Input markdown for the "Description" section of your file.',
+        message: 'Enter a description of your project.',
         name: 'description',
     },
     {
         type: 'input',
-        message: 'Input markdown for the "Installation" section of your file.',
+        message: 'Enter information about installation requirements >',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Input markdown for the "Usage" section of your file.',
+        message: 'Enter text to denote in code for installation requirements  >',
+        name: 'installationCode',
+    },
+    {
+        type: 'input',
+        message: 'Enter information about usage guidelines for your code >  ',
         name: 'usage',
+    },
+    {
+        type: 'input',
+        message: 'Enter text to denote in code for usage guidelines for your code >  ',
+        name: 'usageCode',
     },
     {
         type: 'checkbox',
@@ -36,13 +45,18 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Input markdown for the "Contributing" section of your file.',
+        message: 'Enter information on options to contribute to this project >',
         name: 'contributing',
     },
     {
         type: 'input',
-        message: 'Input markdown for the "Tests" section of your file.',
+        message: 'Enter information about testing the source code >',
         name: 'test',
+    },
+    {
+        type: 'input',
+        message: 'Enter text to denote in code for  testing your source code >',
+        name: 'testCode',
     },
     {
         type: 'input',
@@ -57,7 +71,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// function writeToFile(filePath, response) {
+//     filePath = 'README.md'
+//     return new Promise((resolve, reject) => {
+//         fs.writeFile(filePath, response, (err) => {
+//             if ((err)) {
+//                 reject(console.error(err));
+//                 return;
+//             }
+//             resolve('README.md');
+//         });
+//     });
+// };
 
 // TODO: Create a function to initialize app
 function init() {
@@ -65,6 +90,9 @@ function init() {
         .prompt(questions)
 
         .then( (response) => {
+            // writeToFile();
+            fs.writeFile('README.md', JSON.stringify(response), (err) =>
+            err ? console.error(err) : console.log('Prompts completed!'))
             console.log(response);
         });
 }

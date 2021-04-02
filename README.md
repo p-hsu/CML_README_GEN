@@ -34,8 +34,8 @@ The following lists all functions within this project:
 ### Process:
 #### Tasks
 
-* [ ] include package manager `npm init`
-* [ ] install Inquirer `npm install Inquirer`
+* [x] include package manager `npm init`
+* [x] install Inquirer `npm install Inquirer`
 * [ ] `index.js`
     - `const` module packages and require method for `generateMarkdown.js`
     - `const` user prompt array
@@ -62,13 +62,23 @@ The following lists all functions within this project:
     * assets directory
         - images directory : *for README file only*
     * `README.md`
-5. Node and npm is necessary to run this application - please click [HERE](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for documentation.
+5. Node and npm is necessary to run this application - please click [HERE](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for documentation on how to install this package for your OS.
 
-### Project Walkthrough Video
+## Usage
+
+### Running with CLI:
+
+```
+$ node ./index.js
+```
+
+Please make sure you `cd` to the directory your `index.js` is located in.
+
+## Project Walkthrough Video
 
 *WIP*
 
-### Project Screenshots
+## Project Screenshots
 
 *WIP*
 
