@@ -16,20 +16,24 @@ const generateMarkdown = ({title, description, installation, installationCode,  
 # ${title}
 
 ## Project description
+
 ${description}
 
 ## Installation
+
 The following requirements are necessary to run this application:
 
-**${installation}**\n
+*${installation}\n
 \`${installationCode}\`
 
 ## Usage
-**${usage}**\n
+
+*${usage}\n
 \`${usageCode}\`
 
 ## Testing
-${test}
+
+${test}\n
 \`${testCode}\`
 
 ## License
