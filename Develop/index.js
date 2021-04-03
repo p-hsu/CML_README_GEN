@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const genMd = require('./utils/generateMarkdown.js');
+const genMd = require('./utils/generateMarkdown.js');
+// const generateMarkdown = require('./utils/generateMarkdown.js');
 
 const licenseArray = ['MIT', 'BSD', 'Apache-2.0', 'GPL']
 
@@ -91,7 +92,8 @@ function init() {
 
         .then( (response) => {
             // writeToFile();
-            fs.writeFile('README.md', JSON.stringify(response), (err) =>
+            const populateMd = genMd(response)
+            fs.writeFile('README.md', populateMd, (err) =>
             err ? console.error(err) : console.log('Prompts completed!'))
             console.log(response);
         });
