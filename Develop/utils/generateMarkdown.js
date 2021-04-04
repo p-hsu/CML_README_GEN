@@ -115,6 +115,7 @@ const generateMarkdown = ({title, description, installation, installationCode, u
 **PLEASE NOTE THAT THIS FILE GENERATES A TEMPLATE. PLEASE EDIT AND BUILD UPON THIS FILE TO REFLECT THE PARAMETERS OF YOUR PROJECT.**
 *For markdown syntax, please refer to [**THIS**](https://www.markdownguide.org/) link. Don't forget to delete these lines in your final draft!*
 ****
+
 # ${title}
 ${badge}
 
