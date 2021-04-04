@@ -2,15 +2,12 @@
 
 ## Project overview
 
-This application is a back-end README generator, requesting user inputs via command line and generating a professional style README file to be used for any project.
+This application is a back-end README generator, requesting user inputs via command line and generating a professional style README file **template** to be edited and build upon for any project.
+
 
 ### Project Status:
 
-*ONGOING*
-
-#### Issues to debug:
-
-*TBD*
+*Completed*
 
 ****
 
@@ -27,24 +24,7 @@ The following components are used to build the code for this project:
 
 ### Functionality:
 
-The following lists all functions within this project:
-
-*WIP*
-
-### Process:
-#### Tasks
-
-* [x] include package manager `npm init`
-* [x] install Inquirer `npm install Inquirer`
-* [ ] `index.js`
-    - `const` module packages and require method for `generateMarkdown.js`
-    - `const` user prompt array
-    - function to write `README.md`
-    - function to initialize application
-* [ ] `generateMarkdown.js`
-    - functions for rendering License badges
-    - function to generate markdown
-* [ ] `README.md`for application
+With all packages installed, the user will be able to use command line inputs to generate a README file template with all the conventional sections filled out. There is a link for novice markdown users included at the top of the generated template as a resource. 
 
 ****
 
@@ -69,10 +49,10 @@ The following lists all functions within this project:
 ### Running with CLI:
 
 ```
-$ node ./index.js
+$ directory node ./index.js
 ```
 
-Please make sure you `cd` to the directory your `index.js` is located in.
+(where **directory** is the location of your index.js file)
 
 ## Project Walkthrough Video
 

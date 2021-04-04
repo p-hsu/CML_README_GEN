@@ -4,7 +4,7 @@ const fs = require('fs');
 const genMd = require('./utils/generateMarkdown.js');
 // const generateMarkdown = require('./utils/generateMarkdown.js');
 
-const licenseArray = ['MIT', 'BSD', 'Apache-2.0', 'GPL']
+const licenseArray = ['MIT', 'BSD', 'Apache-2.0', 'GPL', 'None']
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -15,7 +15,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Enter a description of your project.',
+        message: 'Enter a description of your project >',
         name: 'description',
     },
     {
@@ -39,7 +39,7 @@ const questions = [
         name: 'usageCode',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Choose from the following optins to generate license badges >',
         choices: licenseArray,
         name: 'license',
