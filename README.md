@@ -68,9 +68,9 @@ This screenshot below shows that the user can implement this application via the
 
 ![Comparison shot between editor and terminal](./assets/images/editor-terminal.png)
 
-Using the code editor, you can pull up the source code as well as access the README.md file that is generated -<span style = "color:violet"> as seen in the purple box to the left.</span>
+Using the code editor, you can pull up the source code as well as access the README.md file that is generated - <span style = "color:violet"> as seen in the purple box to the left.</span> :purple_circle:
 
-On the other hand, using terminal/CMD will require the user to open their code editor to pull up the generated README.md file - <span style = "color:orange">as seen underlined and arrow-ed in orange.</span>
+On the other hand, using terminal/CMD will require the user to open their code editor to pull up the generated README.md file - <span style = "color:orange">as seen underlined and arrow-ed in orange.</span> :orange_circle:
 
 ****
 
