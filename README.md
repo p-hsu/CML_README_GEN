@@ -91,7 +91,7 @@ This application has no URL deployment functionality. Please refer to the [Insta
 
 ## Credit
 
-* Inquirer.js[Documentation](https://www.npmjs.com/package/inquirer)
+* Inquirer.js [Documentation](https://www.npmjs.com/package/inquirer)
 * Full-stack Bootcamp Program @ [Washington University, Saint Louis](https://bootcamp.tlcenter.wustl.edu/) through [© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand](https://www.trilogyed.com/)
 * Walkthrough video created using [© Screencastify,LLC 2020](https://www.screencastify.com/)
 
