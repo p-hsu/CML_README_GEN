@@ -40,9 +40,12 @@ With all packages installed, the user will be able to use command line inputs to
             * `generateMarkdown.js`
     * `index.js`
     * `.gitignore`
+    * `package.json`
+    * `package-lock.json`
     * assets directory
         - images directory : *for README file only*
     * `README.md`
+5. A code editor (i.e. the editor you will see referred to here is [Visual Studio Code](https://code.visualstudio.com/))
 5. Node and npm is necessary to run this application - please click [HERE](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for documentation on how to install this package for your OS.
 
 ## Usage
@@ -61,7 +64,22 @@ $ directory node ./index.js
 
 ## Project Screenshots
 
-*WIP*
+This screenshot below shows that the user can implement this application via their code editor or terminal(MacOS)/CMD(Windows):
+
+![Comparison shot between editor and terminal](./assets/images/editor-terminal.png)
+
+Using the code editor, you can pull up the source code as well as access the README.md file that is generated, as seen in the purple box to the left.
+
+On the other hand, using terminal/CMD will require the user to open their code editor to pull up the generated README.md file. 
+
+****
+
+This screenshot below is the sample README.md file generated from the prompts seen in the previous screenshot:
+
+![Sample README.md](./assets/images/sample-readme.png)
+
+This file can then be saved, moved, copy/pasted to where the user requires it. You can also see the first few lines in the README.md indicating that the user should edit the file to their needs and further resources if they require them.
+
 
 ****
 
@@ -73,6 +91,7 @@ This application has no URL deployment functionality. Please refer to the [Insta
 
 ## Credit
 
+* Inquirer.js[Documentation](https://www.npmjs.com/package/inquirer)
 * Full-stack Bootcamp Program @ [Washington University, Saint Louis](https://bootcamp.tlcenter.wustl.edu/) through [© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand](https://www.trilogyed.com/)
 * Walkthrough video created using [© Screencastify,LLC 2020](https://www.screencastify.com/)
 

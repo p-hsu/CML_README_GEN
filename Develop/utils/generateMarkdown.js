@@ -78,7 +78,7 @@ const generateMarkdown = ({title, description, installation, installationCode, u
     renderLicenseSection(license);
 
     return`
-**PLEASE NOTE THAT THIS FILE GENERATES A TEMPLATE. PLEASE EDIT AND BUILD UPON THIS FILE TO REFLECT THE PARAMETERS OF YOUR PROJECT.**
+**PLEASE NOTE THAT THIS FILE GENERATES A TEMPLATE. EDIT AND BUILD UPON THIS FILE TO REFLECT THE PARAMETERS OF YOUR PROJECT.**
 *For markdown syntax, please refer to [**THIS**](https://www.markdownguide.org/) link. Don't forget to delete these lines in your final draft!*
 ****
 
@@ -93,10 +93,10 @@ ${description}
 ## Table of Content
 - [Installation](#Installation)
 - [Usage](#Usage)
-- Testing(#Testing)
-- License (#License)
-- Contributions (#Contributions)
-- Questions (#Questions)
+- [Testing](#Testing)
+- [License](#License)
+- [Contributions](#Contributions)
+- [Questions](#Questions)
 
 ## Installation
 
