@@ -90,6 +90,14 @@ ${badge}
 
 ${description}
 
+## Table of Content
+- [Installation](#Installation)
+- [Usage](#Usage)
+- Testing(#Testing)
+- License (#License)
+- Contributions (#Contributions)
+- Questions (#Questions)
+
 ## Installation
 
 The following requirements are necessary to run this application:
