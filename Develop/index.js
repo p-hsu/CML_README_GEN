@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const genMd = require('./utils/generateMarkdown.js');
-// const generateMarkdown = require('./utils/generateMarkdown.js');
 
 const licenseArray = ['MIT', 'BSD', 'Apache-2.0', 'GPL', 'None']
 
@@ -71,30 +70,15 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(filePath, response) {
-//     filePath = 'README.md'
-//     return new Promise((resolve, reject) => {
-//         fs.writeFile(filePath, response, (err) => {
-//             if ((err)) {
-//                 reject(console.error(err));
-//                 return;
-//             }
-//             resolve('README.md');
-//         });
-//     });
-// };
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer
         .prompt(questions)
 
         .then( (response) => {
-            // writeToFile();
             const populateMd = genMd(response)
             fs.writeFile('README.md', populateMd, (err) =>
-            err ? console.error(err) : console.log('Prompts completed!'))
+            err ? console.error(err) : console.log('Prompts completed and README.md template generated!'))
             console.log(response);
         });
 }

@@ -19,8 +19,9 @@ The following components are used to build the code for this project:
 
 1. **JavaScript**
     - Node.js > npm
-    - file-system *default module of npm*
-    - Inquirer
+        * file-system *default module of npm*
+        * Inquirer
+    - functions with switch/case conditional statments to generate license badges
 
 ### Functionality:
 

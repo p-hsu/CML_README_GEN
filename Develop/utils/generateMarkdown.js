@@ -36,40 +36,6 @@ function renderLicenseBadge(license) {
     }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//     switch (true) {
-//         // If MIT is chosen
-//         case license == 'MIT':
-//             link = 'https://opensource.org/licenses/MIT';
-//             break;
-
-//         // If BSD is chosen
-//         case license == 'BSD':
-//             link = 'https://opensource.org/licenses/BSD-3-Clause';
-//             break;
-
-//         // If Apache-2.0 is chosen
-//         case license == 'Apache-2.0':
-//             link = 'https://opensource.org/licenses/Apache-2.0';
-//             break;
-
-//         // If GPL is chosen
-//         case license == 'GPL':
-//             link = 'https://www.gnu.org/licenses/gpl-3.0';
-//             break;
-
-//         // If None is chose
-//         case license == 'None':
-//             link = ''
-//             break;
-
-//         default:
-//             link = ''
-//     }
-// }
-
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
@@ -155,6 +121,3 @@ If you have any questions for me, you can find me on [Github](https://www.github
 
 module.exports = generateMarkdown;
 
-// const markdown = 'I love it!';
-
-// module.exports = genMd;
