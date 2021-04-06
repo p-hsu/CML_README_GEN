@@ -77,8 +77,8 @@ function init() {
 
         .then( (response) => {
             const populateMd = genMd(response)
-            fs.writeFile('README.md', populateMd, (err) =>
-            err ? console.error(err) : console.log('Prompts completed and README.md template generated!'))
+            fs.writeFile('README-template.md', populateMd, (err) =>
+            err ? console.error(err) : console.log('Prompts completed and README-template.md template generated!'))
             console.log(response);
         });
 }

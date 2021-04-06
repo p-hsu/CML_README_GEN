@@ -44,6 +44,8 @@ With all packages installed, the user will be able to use command line inputs to
     * `package-lock.json`
     * assets directory
         - images directory : *for README file only*
+    * Distribute directory
+        - `READM-template.md`
     * `README.md`
 5. A code editor (i.e. the editor you will see referred to here is [Visual Studio Code](https://code.visualstudio.com/))
 5. Node and npm is necessary to run this application - please click [HERE](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for documentation on how to install this package for your OS.
@@ -58,9 +60,15 @@ $ directory node ./index.js
 
 (where **directory** is the location of your index.js file)
 
+****
+
+## Sample README.md
+
+To see a sample of a generated README.md template, locate the file in the Distribute directory included in this repo.
+
 ## Project Walkthrough Video
 
-*WIP*
+For a quick walkthrough: [Click here!](https://drive.google.com/file/d/1vbCd_xDm2dQX3hOZGqYvZJQQZFvesQEc/view)
 
 ## Project Screenshots
 

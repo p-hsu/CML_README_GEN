@@ -102,12 +102,12 @@ ${description}
 
 The following requirements are necessary to run this application:
 
-*${installation}\n
+*${installation}*\n
 \`${installationCode}\`
 
 ## Usage
 
-*${usage}\n
+*${usage}*\n
 \`${usageCode}\`
 
 ## Testing
